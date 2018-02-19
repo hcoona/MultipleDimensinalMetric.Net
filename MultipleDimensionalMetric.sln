@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDimensionalMetric.Abstractions", "MultipleDimensionalMetric.Abstractions\MultipleDimensionalMetric.Abstractions.csproj", "{70ABBF79-A6C8-45E5-953F-0D3622C711CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDimensionalMetric.CentralizedProcessing", "MultipleDimensionalMetric.CentralizedProcessing\MultipleDimensionalMetric.CentralizedProcessing.csproj", "{953DB027-3C8E-444C-83DD-7239DA0D06A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Global", "_Global", "{8FA3DCAB-55F2-4CB4-9FFA-EA3B4BFB582C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		common.props = common.props
+		Directory.Build.props = Directory.Build.props
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+		version.json = version.json
+		version.props = version.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDimensionalMetric.Formatters.LineProtocolFormatter", "MultipleDimensionalMetric.Formatters.LineProtocolFormatter\MultipleDimensionalMetric.Formatters.LineProtocolFormatter.csproj", "{F395006A-5A1B-4734-8F4A-6793FC9471B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDimensionalMetric.MetricWriterProcessors.TextWriterProcessor", "MultipleDimensionalMetric.MetricWriterProcessors.TextWriterProcessor\MultipleDimensionalMetric.MetricWriterProcessors.TextWriterProcessor.csproj", "{837E1093-08D5-4458-8D2D-B2B8A4B80A61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Formatters", "Formatters", "{F9BE4061-42C4-4AD2-93FD-1EA10A5E5E2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MetricWriterProcessors", "MetricWriterProcessors", "{8F856F0F-39B1-4862-95B8-EAF471DD5739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDimensionalMetric.Tests", "MultipleDimensionalMetric.Tests\MultipleDimensionalMetric.Tests.csproj", "{169BA5F6-6F5C-4CE1-BCB8-BFC0AD47AF2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70ABBF79-A6C8-45E5-953F-0D3622C711CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ABBF79-A6C8-45E5-953F-0D3622C711CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ABBF79-A6C8-45E5-953F-0D3622C711CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ABBF79-A6C8-45E5-953F-0D3622C711CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953DB027-3C8E-444C-83DD-7239DA0D06A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953DB027-3C8E-444C-83DD-7239DA0D06A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953DB027-3C8E-444C-83DD-7239DA0D06A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953DB027-3C8E-444C-83DD-7239DA0D06A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F395006A-5A1B-4734-8F4A-6793FC9471B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F395006A-5A1B-4734-8F4A-6793FC9471B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F395006A-5A1B-4734-8F4A-6793FC9471B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F395006A-5A1B-4734-8F4A-6793FC9471B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837E1093-08D5-4458-8D2D-B2B8A4B80A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837E1093-08D5-4458-8D2D-B2B8A4B80A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837E1093-08D5-4458-8D2D-B2B8A4B80A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837E1093-08D5-4458-8D2D-B2B8A4B80A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169BA5F6-6F5C-4CE1-BCB8-BFC0AD47AF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169BA5F6-6F5C-4CE1-BCB8-BFC0AD47AF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169BA5F6-6F5C-4CE1-BCB8-BFC0AD47AF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169BA5F6-6F5C-4CE1-BCB8-BFC0AD47AF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F395006A-5A1B-4734-8F4A-6793FC9471B0} = {F9BE4061-42C4-4AD2-93FD-1EA10A5E5E2C}
+		{837E1093-08D5-4458-8D2D-B2B8A4B80A61} = {8F856F0F-39B1-4862-95B8-EAF471DD5739}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {808EDAEE-A155-4535-93D9-1D54F20C3478}
+	EndGlobalSection
+EndGlobal
